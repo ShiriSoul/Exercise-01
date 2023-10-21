@@ -113,7 +113,7 @@ class Movement extends Phaser.Scene {
             playerVector.x = 1
             playerDirection = 'right'
         }
-        
+
         if (cursors.up.isDown) {
             playerVector.y = -1
             playerDirection = 'up'
